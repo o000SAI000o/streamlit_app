@@ -115,6 +115,20 @@ Documentation for Git Commands:
     10. Tags:
          Tags are used to mark specific points in history, often for releases.
 
+    fixing mistakes :
+    case 1 : staged changes
+            git reset <-file name-> - to remove staged changes from single file
+            git reset  - to remove staged changes from all files in one go
+
+    case 2 : commited changes (for one commit)
+            git reset HEAD-1
+
+    case 3 : commited changes (for many commits)
+            git reset <-commit hasg->
+            git reset --hard <-commit hash-> 
+
+
+
     Tricks and Tips:
     - Use `git log --oneline` for a concise commit history.
     - Use `git stash` to save your work temporarily without committing.
