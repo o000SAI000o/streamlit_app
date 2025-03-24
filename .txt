@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-ruuuuuuuuuuu
-=======
 Documentation for Git Commands:
 
 1. git init
@@ -54,8 +51,8 @@ Documentation for Git Commands:
     git branch -d <branchname>
     to delete the branch
 
-13. git merge [branch_name] 
-    to create PR(pull request) or Merges the specified branch into the current branch.
+13. git merge [branch_name]
+    Merges the specified branch into the current branch.
 
 12. git pull
      Fetches and integrates changes from the remote repository into the current branch.
@@ -127,7 +124,7 @@ Documentation for Git Commands:
     - Protect branches on GitHub to enforce code reviews and prevent accidental changes.
 
 
+
 GitHub -> code changes -> commit
 git -> code changes -> add -> commit -> push->
     
->>>>>>> sai
