@@ -1,3 +1,63 @@
-euuuu
+Documentation for Git Commands:
 
-lesss goo
+1. git init
+    Initializes a new Git repository in the current folder.
+
+2. ls -force
+    Displays all directories and hidden files in the current folder.
+
+3. ls -R
+    Recursively lists all directories, subdirectories, and hidden files.
+
+4. git status
+    Shows the working tree status, including staged, unstaged, and untracked changes.
+
+5. git commit -m "commit_msg"
+    Creates a commit with a message describing the changes.
+
+6. git add .
+    Stages all changes in the current directory for the next commit.
+
+7. git push
+    Pushes the committed changes to the remote repository.
+
+8. git clone [LINK]
+    Creates a local copy of a remote repository using its URL.
+
+9. git branch
+    Lists all branches in the repository. The current branch is highlighted with an asterisk.
+
+10. git checkout [branch_name]
+     Switches to the specified branch.
+
+11. git merge [branch_name]
+     Merges the specified branch into the current branch.
+
+12. git pull
+     Fetches and integrates changes from the remote repository into the current branch.
+
+13. git log
+     Displays the commit history for the repository.
+
+14. git diff
+     Shows the differences between the working directory and the staging area.
+
+15. git reset [file]
+     Unstages a file while retaining its changes in the working directory.
+
+16. git rm [file]
+     Removes a file from the working directory and stages the removal.
+
+17. git stash
+     Temporarily saves changes that are not ready to be committed.
+
+18. git stash pop
+     Applies the most recently stashed changes and removes them from the stash list.
+
+19. git remote -v
+     Displays the URLs of the remote repositories.
+
+20. git tag [tag_name]
+     Creates a tag for the current commit.
+
+
