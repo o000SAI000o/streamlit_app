@@ -27,29 +27,32 @@ Documentation for Git Commands:
 9. git branch
     Lists all branches in the repository. The current branch is highlighted with an asterisk.
 
-git branch -M main
- to rename main branch
+9. git branch -M main
+    Renames the current branch to 'main'.
 
-git commit -am "updated"
-    to commit and add simultaneously if we have made changes only in one file 
+10. git commit -am "updated"
+    Commits and stages changes simultaneously if modifications are made in a single file.
 
-10. git checkout [branch_name]
-     Switches to the specified branch.
+11. git checkout [branch_name]
+    Switches to the specified branch.
 
-11 . git remote add origin 
-     to specify the origin in our repo
+12. git remote add origin [URL]
+    Specifies the remote repository URL as 'origin'.
 
-     git remote -v
-     to verify remote
+    git remote -v
+    Verifies the remote repository URLs.
 
-    git  checkout <branch_name>
-     to navigate to a specific branch
+    git checkout <branch_name>
+    Navigates to a specific branch.
 
     git checkout -b <new_branch_name>
-     
+    Creates and switches to a new branch.
 
-11. git merge [branch_name]
-     Merges the specified branch into the current branch.
+    git branch -d <branchname>
+    to delete the branch
+
+13. git merge [branch_name]
+    Merges the specified branch into the current branch.
 
 12. git pull
      Fetches and integrates changes from the remote repository into the current branch.
