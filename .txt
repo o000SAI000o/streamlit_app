@@ -125,8 +125,7 @@ Documentation for Git Commands:
 
 
 
- git and github helps streamline developement process prioritizing collaborative approach among teams
-
+ 
 GitHub -> code changes -> commit
 git -> code changes -> add -> commit -> push->
     
