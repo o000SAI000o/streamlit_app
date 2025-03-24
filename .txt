@@ -122,8 +122,9 @@ Documentation for Git Commands:
     - Use aliases in Git to simplify commands (e.g., `git config --global alias.co checkout`).
     - Use GitHub Actions to automate workflows like testing and deployment.
     - Protect branches on GitHub to enforce code reviews and prevent accidental changes.
+ 
+     git and github are two different things !!!
 
-   git and github are two different things !!!
 
  git and github helps streamline developement process prioritizing collaborative approach among teams
 
