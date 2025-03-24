@@ -42,7 +42,11 @@ git commit -am "updated"
      git remote -v
      to verify remote
 
+    git  checkout <branch_name>
+     to navigate to a specific branch
 
+    git checkout -b <new_branch_name>
+     
 
 11. git merge [branch_name]
      Merges the specified branch into the current branch.
@@ -115,3 +119,8 @@ git commit -am "updated"
     - Use aliases in Git to simplify commands (e.g., `git config --global alias.co checkout`).
     - Use GitHub Actions to automate workflows like testing and deployment.
     - Protect branches on GitHub to enforce code reviews and prevent accidental changes.
+
+
+GitHub -> code changes -> commit
+git -> code changes -> add -> commit -> push->
+    
