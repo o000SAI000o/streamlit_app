@@ -123,13 +123,10 @@ Documentation for Git Commands:
     - Use GitHub Actions to automate workflows like testing and deployment.
     - Protect branches on GitHub to enforce code reviews and prevent accidental changes.
 
+   git and github are two different things !!!
 
-
-<<<<<<< HEAD
-=======
  git and github helps streamline developement process prioritizing collaborative approach among teams
 
->>>>>>> a8f825ff1932c8f43393ff3e0d5e8753e18cab22
 GitHub -> code changes -> commit
 git -> code changes -> add -> commit -> push->
     
