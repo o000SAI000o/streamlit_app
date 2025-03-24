@@ -27,8 +27,22 @@ Documentation for Git Commands:
 9. git branch
     Lists all branches in the repository. The current branch is highlighted with an asterisk.
 
+git branch -M main
+ to rename main branch
+
+git commit -am "updated"
+    to commit and add simultaneously if we have made changes only in one file 
+
 10. git checkout [branch_name]
      Switches to the specified branch.
+
+11 . git remote add origin 
+     to specify the origin in our repo
+
+     git remote -v
+     to verify remote
+
+
 
 11. git merge [branch_name]
      Merges the specified branch into the current branch.
@@ -60,4 +74,44 @@ Documentation for Git Commands:
 20. git tag [tag_name]
      Creates a tag for the current commit.
 
+    Important Concepts of Git and GitHub:
 
+    1. Version Control:
+        Git is a distributed version control system that helps track changes in files and coordinate work among multiple developers.
+
+    2. Repositories:
+        - Local Repository: Your local copy of the project.
+        - Remote Repository: A repository hosted on platforms like GitHub, GitLab, or Bitbucket.
+
+    3. Branching and Merging:
+        - Branching allows you to work on different features or fixes independently.
+        - Merging integrates changes from one branch into another.
+
+    4. Staging Area:
+        A space where changes are prepared before committing them to the repository.
+
+    5. Commits:
+        Snapshots of your project at a specific point in time. Each commit has a unique hash.
+
+    6. Pull Requests (GitHub):
+        A way to propose changes to a repository. It allows code review and collaboration before merging.
+
+    7. Forking (GitHub):
+        Creating a personal copy of someone else's repository to make changes without affecting the original.
+
+    8. Collaboration:
+        GitHub enables collaboration through issues, pull requests, and project boards.
+
+    9. Git Ignore:
+        Use `.gitignore` to exclude files or directories from being tracked by Git.
+
+    10. Tags:
+         Tags are used to mark specific points in history, often for releases.
+
+    Tricks and Tips:
+    - Use `git log --oneline` for a concise commit history.
+    - Use `git stash` to save your work temporarily without committing.
+    - Use `git rebase` to clean up commit history (with caution).
+    - Use aliases in Git to simplify commands (e.g., `git config --global alias.co checkout`).
+    - Use GitHub Actions to automate workflows like testing and deployment.
+    - Protect branches on GitHub to enforce code reviews and prevent accidental changes.
